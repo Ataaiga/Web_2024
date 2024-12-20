@@ -1,0 +1,156 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Cressida</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+
+    <header>
+        <div class="header-container">
+            <div class="logo">
+                <img src="logo.png" alt="Логотип Cressida" class="logo-image">
+            </div>
+            <div class="site-name">Cressida</div>
+            <div class="auth-buttons">
+                <!-- Кнопки Вход и Авторизация -->
+                <label for="login-toggle" class="auth-button">Вход</label>
+                <label for="register-toggle" class="auth-button">Регистрация</label>
+            </div>
+        </div>
+        <nav class="top-nav">
+            <a href="service.htm">Сервис</a>
+            <a href="certificates.htm">Подарочные сертификаты</a>
+            <a href="production.htm">Производство</a>
+            <form class="search-form" action="search.htm" method="get">
+                <input type="text" name="q" placeholder="Поиск по сайту" aria-label="Поиск по сайту">
+                <button type="submit">Найти</button>
+            </form>
+        </nav>
+
+        <!-- Чекбоксы для управления отображением меню -->
+        <input type="checkbox" id="login-toggle" class="menu-toggle">
+        <div class="auth-menu">
+            <label for="login-toggle" class="close-menu">&times;</label>
+            <form>
+                <h2>Вход</h2>
+                <label for="login-login">Логин:</label>
+                <input type="text" id="login-login" name="login" required>
+                <label for="login-password">Пароль:</label>
+                <input type="password" id="login-password" name="password" required>
+                <button type="submit">Войти</button>
+            </form>
+        </div>
+
+        <input type="checkbox" id="register-toggle" class="menu-toggle">
+        <div class="auth-menu">
+            <label for="register-toggle" class="close-menu">&times;</label>
+            <form>
+                <h2>Регистрация</h2>
+
+                <label for="register-lastname">Фамилия:</label>
+                <input type="text" id="register-lastname" name="lastname" required>
+                <label for="register-firstname">Имя:</label>
+                <input type="text" id="register-firstname" name="firstname" required>
+                <label for="register-login">Логин:</label>
+                <input type="text" id="register-login" name="login" required>
+                <label for="register-password">Пароль:</label>
+                <input type="password" id="register-password" name="password" required>
+                <div class="checkbox-container">
+                    <input type="checkbox" id="policy-agreement" name="policy" required>
+                    <label for="policy-agreement">Я соглашаюсь с политикой конфиденциальности</label>
+                </div>
+                <button type="submit">Зарегистрироваться</button>
+            </form>
+        </div>
+    </header>
+
+
+    <div class="content">
+
+        <aside class="sidebar">
+            <a href="index.htm">Главная</a>
+            <a href="about.htm">О нас</a>
+            <a href="catalog.htm">Каталог</a>
+            <a href="contacts.htm">Контакты</a>
+            <a href="feedback.htm">Отзывы</a>
+        </aside>
+
+        <main>
+            <h2>Каталог</h2>
+
+            <!-- Категория: Товары из меха -->
+            <h3>Меховые изделия</h3>
+            <div class="product-gallery">
+                <div class="product-item">
+                    <a href="product1.png" target="_blank">
+                        <img src="product1.png" alt="Пальто кашемир, отделка мехом норки">
+                    </a>
+                    <p class="product-name">Пальто кашемир, отделка мехом норки</p>
+                    <p class="product-price">Цена: 40 000 ₽</p>
+                    <p><a href="product1.htm" class="product-link">Подробнее о товаре</a></p>
+                </div>
+                <div class="product-item">
+                    <a href="product2.png" target="_blank">
+                        <img src="product2.png" alt="Пальто кашемир, отделка мехом норки">
+                    </a>
+                    <p class="product-name">Пальто кашемир, отделка мехом норки</p>
+                    <p class="product-price">Цена: 35 000 ₽</p>
+                    <p><a href="product2.htm" class="product-link">Подробнее о товаре</a></p>
+                </div>
+                <div class="product-item">
+                    <a href="product3.png" target="_blank">
+                        <img src="product3.png" alt="Шуба норка">
+                    </a>
+                    <p class="product-name">Шуба норка</p>
+                    <p class="product-price">Цена: 167 000 ₽</p>
+                    <p><a href="product3.htm" class="product-link">Подробнее о товаре</a></p>
+                </div>
+            </div>
+
+            <!-- Категория: Товары из кожи -->
+            <h3>Кожаные изделия</h3>
+            <div class="product-gallery">
+                <div class="product-item">
+                    <a href="product4.png" target="_blank">
+                        <img src="product4.png" alt="Кожаная куртка">
+                    </a>
+                    <p class="product-name">Кожаная куртка</p>
+                    <p class="product-price">Цена: 25 000 ₽</p>
+                    <p><a href="product4.htm" class="product-link">Подробнее о товаре</a></p>
+                </div>
+                <div class="product-item">
+                    <a href="product5.png" target="_blank">
+                        <img src="product5.png" alt="Дубленка мужская, натуральная кожа">
+                    </a>
+                    <p class="product-name">Дубленка мужская, натуральная кожа</p>
+                    <p class="product-price">Цена: 46 250 ₽</p>
+                    <p><a href="product5.htm" class="product-link">Подробнее о товаре</a></p>
+                </div>
+                <div class="product-item">
+                    <a href="product6.png" target="_blank">
+                        <img src="product6.png" alt="Куртка кожаная">
+                    </a>
+                    <p class="product-name">Куртка кожаная</p>
+                    <p class="product-price">Цена: 18 750 ₽</p>
+                    <p><a href="product6.htm" class="product-link">Подробнее о товаре</a></p>
+                </div>
+            </div>
+        </main>
+
+
+        <aside class="image-container">
+            <img src="sale.png" alt="Изображение">
+        </aside>
+    </div>
+
+    <footer>
+        <hr>
+        <p>Все права защищены</p>
+    </footer>
+
+
+</body>
+</html>

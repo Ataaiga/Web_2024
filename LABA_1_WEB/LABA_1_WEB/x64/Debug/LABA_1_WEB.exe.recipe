@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <ProjectOutputs>
+    <ProjectOutput>
+      <FullPath>D:\poeben'\web\LABA_1_WEB\x64\Debug\LABA_1_WEB.exe</FullPath>
+    </ProjectOutput>
+  </ProjectOutputs>
+  <ContentFiles>
+    <ContentFile>
+      <FullPath>D:\poeben'\web\LABA_1_WEB\LABA_1_WEB\about.htm</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>D:\poeben'\web\LABA_1_WEB\LABA_1_WEB\catalog.htm</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>D:\poeben'\web\LABA_1_WEB\LABA_1_WEB\certificates.htm</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>D:\poeben'\web\LABA_1_WEB\LABA_1_WEB\contacts.htm</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>D:\poeben'\web\LABA_1_WEB\LABA_1_WEB\feedback.htm</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>D:\poeben'\web\LABA_1_WEB\LABA_1_WEB\product1.htm</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>D:\poeben'\web\LABA_1_WEB\LABA_1_WEB\product2.htm</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>D:\poeben'\web\LABA_1_WEB\LABA_1_WEB\product3.htm</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>D:\poeben'\web\LABA_1_WEB\LABA_1_WEB\product4.htm</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>D:\poeben'\web\LABA_1_WEB\LABA_1_WEB\product5.htm</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>D:\poeben'\web\LABA_1_WEB\LABA_1_WEB\product6.htm</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>D:\poeben'\web\LABA_1_WEB\LABA_1_WEB\production.htm</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>D:\poeben'\web\LABA_1_WEB\LABA_1_WEB\service.htm</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>D:\poeben'\web\LABA_1_WEB\LABA_1_WEB\index.htm</FullPath>
+    </ContentFile>
+  </ContentFiles>
+  <SatelliteDlls />
+  <NonRecipeFileRefs />
+</Project>
